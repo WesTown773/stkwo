@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("logo-transparent.png");
+  background-repeat: repeat;
+  background-size: 190px 58px;
+  opacity: 0.13;
+}
+
+.logo {
+  position: relative;
+  max-width: 60vw;
+  height: auto;
+}
